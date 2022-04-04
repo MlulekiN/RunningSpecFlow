@@ -1,0 +1,71 @@
+﻿/descendant::div[@data-ref='triggerEl']
+
+ [Then(@"User selects '(.*)' tab")]
+        public void ThenUserSelectsTab()
+        {
+            Debug.Print("Important Code");
+        }
+
+
+        //div[@sm1-id='LOGICALGRIDCOLUMNSPOPUP']/descendant::td[contains(@data-columnid,'sm1gridtextcolumn')]/child::div[contains(text(),a)]/following::td[1]
+
+        WEB_TPM_SP_NAVIGATORS_CHECKS_001
+
+        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets
+
+
+         [When(@"User selects '(.*)'link")]
+        public void WhenUserSelectsLink(string link)
+        {
+           
+        }
+
+        [When(@"User selects '(.*)' link")]
+        public void WhenUserSelectsLink(string Ship)
+        {
+            IWebElement linksSelect = Wait.Until(ExpectedConditions.ElementIsVisible(Elements.linksSelect));
+            linksSelect.Click();
+            IWebElement links = Wait.Until(ExpectedConditions.ElementIsVisible(Elements.LinkText(Ship)));
+            links.Click();
+            IWebElement backButton = Wait.Until(ExpectedConditions.ElementIsVisible(Elements.backButton));
+            backButton.Click();
+        }
+
+
+        [When(@"User selects '(.*)' link")]
+        public void WhenUserSelectsLink(string LinkText)
+        {
+            IWebElement linksSelect = Wait.Until(ExpectedConditions.ElementIsVisible(Elements.linksSelect));
+            linksSelect.Click();
+            IWebElement links = Wait.Until(ExpectedConditions.ElementIsVisible(Elements.LinkText(LinkText)));
+            links.Click();
+            IWebElement backButton = Wait.Until(ExpectedConditions.ElementIsVisible(Elements.backButton));
+            backButton.Click();
+        }
+
+
+        //div[@sm1-id='homeToolbarCloseBTN']/span[@data-ref='btnWrap']
+
+        //div[contains(@class,'sm1-messagebox-error')]/descendant::a[@sm1-id='messageboxbuttonok']/span
+
+        And The user then clicks on gear icon
+
+        //td[contains(@class,'x-selmodel-column x-grid-cell-first')]
+
+        <td class="x-grid-cell x-grid-td x-grid-cell-checkcolumn-4986 x-selmodel-checkbox x-grid-cell-special x-selmodel-column x-grid-cell-first" style=
+        
+          bool alertMessages = false;
+            if (!alertMessages)
+            {
+                driver.FindElement(Elements.alertBox).Click();
+                driver.FindElement(Elements.alertBox).Click();
+            }
+            else
+            {
+                alertMessages.Equals(null); 
+            }
+       
+
+
+
+       "width:24px;" role="gridcell" tabindex="-1" data-columnid="checkcolumn-4986"><div class="x-grid-cell-inner x-grid-checkcolumn-cell-inner" style="text-align:center;"><span class="x-grid-checkcolumn" role="presentation"></span></div></td>
